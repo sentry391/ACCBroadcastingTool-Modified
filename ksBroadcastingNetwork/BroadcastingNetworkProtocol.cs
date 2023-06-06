@@ -161,6 +161,10 @@ namespace ksBroadcastingNetwork
                         {
                             carInfo.CarClass = CarClass.ST;
                         }
+                        if (carInfo.CarModelType == 27)
+                        {
+                            carInfo.CarClass = CarClass.TCX;
+                        }
 
                         carInfo.TeamName = ReadString(br);
                         carInfo.RaceNumber = br.ReadInt32();
