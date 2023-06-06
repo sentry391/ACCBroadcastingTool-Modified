@@ -198,6 +198,11 @@ namespace ksBroadcastingTestClient.Broadcasting
                     RowForeground = Brushes.Black;
                     RowBackground = Brushes.Orange;
                     break;
+                case CarClass.TCX: 
+                    RowForeground = Brushes.Black;
+                    RowBackground = Brushes.LightYellow;
+                    break;
+
                 default:
                     RowForeground = Brushes.Black;
                     RowBackground = Brushes.LightGray;
@@ -220,6 +225,10 @@ namespace ksBroadcastingTestClient.Broadcasting
                     break;
                 case CarClass.ST:
                     RowForeground = Brushes.Orange;
+                    RowBackground = Brushes.Black;
+                    break;
+                case CarClass.TCX: 
+                    RowForeground = Brushes.LightYellow;
                     RowBackground = Brushes.Black;
                     break;
                 default:
